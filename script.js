@@ -16,6 +16,7 @@ function generatePassword(){
   
   
   
+  
   numberLength = prompt("How many characters do you want?");
   if (isNaN(numberLength) || (8>numberLength) || (numberLength>128)) {
     alert("Must be between a number of 8 and 128");
@@ -24,8 +25,26 @@ function generatePassword(){
   }
   else{
     alert("You selected " + numberLength + ".");
+  }
+  alphaUpper = prompt("Do you want Upper Case Letters? Yes or No");
+  if (alphaUpper === true){
     
   }
+  alphaLower = prompt ("Do you want Lower Case Letters");
+  special = prompt ("Do you want Special Characters");
+  numero = prompt ("Do you Want Numbers?")
+
+    if (isNaN(numberLength) || (8>numberLength) || (numberLength>128)) {
+    alert("Must be between a number of 8 and 128");
+    return;
+
+  }
+  else{
+    alert("You selected " + numberLength + ".");
+    // generate random number based on the length of the array that we are concatinating off of. 
+
+  }
+
 }
 
 // Write password to the #password input
