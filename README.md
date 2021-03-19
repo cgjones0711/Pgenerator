@@ -8,7 +8,7 @@ o CSS
 o JavaScript
 
 Launch:
-https://cgjones0711.github.io/CGJ_Portfolio/
+https://cgjones0711.github.io/Pgenerator/
 
 
 
